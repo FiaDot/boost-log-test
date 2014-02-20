@@ -9,15 +9,6 @@
 
 #include <boost/log/trivial.hpp>
 
-
-enum ELoggerSinker
-{
-	CONSOLE_SINK = 1,
-	VS_DEBUG_SINK,
-	TEXT_FILE_SINK
-};
-
-
 class LogSetting
 {
 public:
